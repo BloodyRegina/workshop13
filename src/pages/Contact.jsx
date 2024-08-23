@@ -1,17 +1,22 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
-import Layout from '../template/Layout'
+import React from "react";
+import Layout from "../template/Layout";
+import { CiFacebook } from "react-icons/ci";
+import { FaPhone } from "react-icons/fa";
 const Contact = () => {
   return (
     <Layout>
-    <h1 className="text-6xl font-bold">Contact</h1>
-    <hr />
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia odio veritatis quam molestiae officiis facere ullam eaque quo repudiandae, debitis eos at? Dolorum ullam sapiente fugiat placeat error consectetur sint exercitationem alias voluptate optio. Mollitia, laudantium deleniti! Ipsa debitis culpa repellat corporis consequatur doloribus eaque, at placeat iste sunt commodi.
-    </p>
-    <hr />
+      <section className="ml-64 text-center w-full py-5 bg-gradient-to-r from-slate-200 to-slate-500">
+      <h1 className="text-6xl font-bold">Contact</h1>
+      <hr />
+      <div className="flex flex-col justify-center items-center text-xl">
+      <a href="" className="flex justify-center items-center"><CiFacebook/>Pat Thanwa</a>
+      <a href="" className="flex justify-center items-center"><FaPhone />080-643-4262</a>
+      </div>
+      <hr />
+      </section>
     </Layout>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

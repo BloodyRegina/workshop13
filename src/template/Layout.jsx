@@ -7,10 +7,13 @@ import Footer from './Footer'
 const Layout = ({children}) => {
   return (
     <>
-    <Navbar/>
     <Menu/>
+    <Navbar/>
+    <div className="flex mt-0">
+    
     {/* Content */}
     {children}
+    </div>
     <Footer/>
     </>
   )

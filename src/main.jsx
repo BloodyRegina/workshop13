@@ -9,7 +9,7 @@ import About from './pages/About.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Home/>
+    <About/>
     <Contact/>
-    <About />
-  </StrictMode>,
+  </StrictMode>
 )
