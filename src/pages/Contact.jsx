@@ -3,10 +3,13 @@ import React from "react";
 import Layout from "../template/Layout";
 import { CiFacebook } from "react-icons/ci";
 import { FaPhone } from "react-icons/fa";
+import { useParams } from "react-router-dom";
 const Contact = () => {
+  const params = useParams();
   return (
     <Layout>
       <section className="ml-64 text-center w-full py-5 bg-gradient-to-r from-slate-200 to-slate-500">
+      <h1 className="text-6xl">Hello {params.name}</h1>
       <h1 className="text-6xl font-bold">Contact</h1>
       <hr />
       <div className="flex flex-col justify-center items-center text-xl">

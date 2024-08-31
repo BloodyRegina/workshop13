@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Menu from './Menu'
 import Footer from './Footer'
+import NotFound from '../pages/NotFound'
 
 const Layout = ({children}) => {
   return (
